@@ -1,5 +1,3 @@
-
-
 body{
     font-family: Roboto, Verdana, Geneva, tahoma, sans-serif;
     margin: 0;
@@ -97,31 +95,23 @@ li a {
 }
 
 .right{
+    position:relative;
     margin-right: 13%;
     background-color: #6d747d;
-    margin-top:6%;
+    margin-top: 5%;
+    width: 31%;
     aspect-ratio: 16/9;
-    max-width: 34%;
-    width: 32%;
 }
 
 #placeholder{
-    margin-top: 22%;
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    top: 36%;
+    left: 25%;
 }
 
-#placeholder p{
-    color:#E5E7EB;
-    font-size: 18px;
-}
-
-
-.right .image{
+.container .image{
     position:absolute;
-    width: inherit;
-    height:inherit;
-    margin-top: -166px;
-    aspect-ratio: 16/9;
-    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
 }
